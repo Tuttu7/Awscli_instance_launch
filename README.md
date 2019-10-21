@@ -54,7 +54,7 @@ aws ec2 describe-instances \
      --filters "Name=tag-key,Values=Sampleserver"
 ```
 
-## - ** To terminate an Amazon EC2 instance**
+## - **To terminate an Amazon EC2 instance**
 
 ```
 aws ec2 terminate-instances --instance-ids i-03262b96cfd5f6aa6
